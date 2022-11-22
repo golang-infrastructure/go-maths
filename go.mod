@@ -1,5 +1,5 @@
-module github.com/CC11001100/go-maths
+module github.com/golang-infrastructure/go-maths
 
-go 1.19
+go 1.18
 
 require golang.org/x/exp v0.0.0-20221031165847-c99f073a8326
