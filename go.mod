@@ -2,4 +2,13 @@ module github.com/golang-infrastructure/go-maths
 
 go 1.18
 
-require golang.org/x/exp v0.0.0-20221031165847-c99f073a8326
+require golang.org/x/exp v0.0.0-20221126150942-6ab00d035af9
+
+require (
+	github.com/davecgh/go-spew v1.1.1 // indirect
+	github.com/golang-infrastructure/go-gtypes v0.0.1 // indirect
+	github.com/pmezard/go-difflib v1.0.0 // indirect
+	github.com/stretchr/objx v0.5.0 // indirect
+	github.com/stretchr/testify v1.8.1 // indirect
+	gopkg.in/yaml.v3 v3.0.1 // indirect
+)
