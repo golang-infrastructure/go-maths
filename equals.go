@@ -11,3 +11,7 @@ func Equals[T1, T2 gtypes.Number](a T1, b T2) bool {
 	t2 := float64(b)
 	return math.Abs(t1-t2) < 0.000001
 }
+
+func FloatEquals[T gtypes.Float](a, b T) bool {
+	return Abs[float64](float64(a-b)) < 0.000001
+}
